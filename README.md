@@ -45,6 +45,11 @@ https://assetstore.unity.com/packages/tools/unirx-reactive-extensions-for-unity-
         readonly string gsPath = string.Format("\"{0}\"", @"C:\Program Files\gs\gs9.23\bin\gswin64c.exe");
 ```
 
+(add 2019/02/23)
+
+ファイル名orパスに日本語が含まれる場合正常に動作しない
+
+日本語に対応したghostscriptが必要かも
 # 権利表記
 使用させていただいたものに関して以下に表記します。
 
