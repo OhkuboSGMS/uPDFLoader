@@ -53,8 +53,7 @@ namespace uPDFLoader
             p.StartInfo.UseShellExecute = false;
             p.StartInfo.RedirectStandardOutput = true;
             p.StartInfo.RedirectStandardInput = false;
-            p.StartInfo.CreateNoWindow = false;
-            p.StartInfo.WindowStyle = ProcessWindowStyle.Normal;
+            p.StartInfo.CreateNoWindow = true;
 
             var optionString = "-dSAFER -dBATCH -dNOPAUSE -sDEVICE=jpeg -r" + ppi;
             var outPutPath = string.Format("-sOutputFile=\"{0}\"", imagesDirectoryPath + @"%d.jpg");
